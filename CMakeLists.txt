@@ -11,4 +11,4 @@ add_executable(
 target_include_directories(${PROJ_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 add_compile_options(${PROJ_NAME} -Wall -Werror -Wextra -Wpedantic -Wshadow -Wformat)
 
-install(FILES ${CMAKE_CURRENT_BINARY_DIR}/Portscanner DESTINATION /usr/local/bin/)
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/5ps DESTINATION /usr/local/bin/)
